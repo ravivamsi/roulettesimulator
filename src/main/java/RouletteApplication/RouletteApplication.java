@@ -16,11 +16,11 @@ public class RouletteApplication {
 		System.out.println("Roulette Application Started ");
 		System.out.println("American Roulette Simulator Log");
 		AmericanSimulator americanSimulator = new AmericanSimulator();
-//		americanSimulator.run1to181838Simulator();
+		americanSimulator.run1to181838Simulator();
 		americanSimulator.run19to361838Simulator();
-//		americanSimulator.run3038Simulator();
-//		americanSimulator.run2438Simulator();
-//		americanSimulator.run3338Simulator();
+		americanSimulator.run3038Simulator();
+		americanSimulator.run2438Simulator();
+		americanSimulator.run3338Simulator();
 //		System.out.print("European Roulette Simulator Log");
 //		EuropeanSimulator europeanSimulator = new EuropeanSimulator();
 //		europeanSimulator.runSimulator();
